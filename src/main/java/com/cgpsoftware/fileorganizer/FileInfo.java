@@ -7,6 +7,14 @@ public class FileInfo {
 	private File file;
 
 	public FileInfo(File file) {
-		this.file = file;		
+		this.setFile(file);		
+	}
+
+	public File getFile() {
+		return file;
+	}
+
+	public void setFile(File file) {
+		this.file = file;
 	}
 }
